@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     EZForm is a form handling and validation library for iOS. It is designed to be decoupled from your user interface layout, leaving you free to present your form UI any way you like. That doesn't mean EZForm won't integrate with your UI. You tell EZForm which of your controls and views you want to handle each form field, and EZForm will take care of input validation, input filtering and updating views when field values change.
                    DESC
-  s.homepage     = "https://github.com/urbanout/EZForm.git"
+  s.homepage     = "https://github.com/urbn/EZForm.git"
   s.license      = 'MIT'
   s.author       = { "Chris Miles" => "miles.chris@gmail.com" }
-  s.source       = { :git => "https://github.com/urbanout/EZForm.git", :tag => "1.1.1" }
+  s.source       = { :git => "https://github.com/urbn/EZForm.git", :tag => "1.1.1" }
   s.platform     = :ios, '5.0'
   s.source_files = 'EZForm/EZForm/src'
   s.framework = 'UIKit'
