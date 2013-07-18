@@ -453,7 +453,7 @@
 	if (nil == self.inputAccessoryStandardView) {
 	    // Create and cache it
 	    // It will be resized automatically to match keyboard
-	    EZFormStandardInputAccessoryView *accessoryView = [[EZFormStandardInputAccessoryView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)];
+	    EZFormStandardInputAccessoryView *accessoryView = [[EZFormStandardInputAccessoryView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f) doneButtonPath:self.doneButtonImagePath];
 	    accessoryView.inputAccessoryViewDelegate = self;
 	    self.inputAccessoryStandardView = accessoryView;
 	}

@@ -29,4 +29,6 @@
 
 @property (nonatomic, weak) id<EZFormInputAccessoryViewDelegate> inputAccessoryViewDelegate;
 
+- (id)initWithFrame:(CGRect)frame doneButtonPath:(NSString *)doneButtonPath;
+
 @end

@@ -95,6 +95,15 @@ typedef enum : NSInteger {
  */
 @property (nonatomic, assign) EZFormInputAccessoryType inputAccessoryType;
 
+/** Supply EZForm with an image for the done button in the input accessory view
+ *
+ *  EZForm will replace the done button text "Done" with
+ *  an image if provided.
+ *
+ *  By default, no image is used and the text will say "Done"
+ */
+@property (nonatomic, assign) NSString *doneButtonImagePath;
+
 /** Padding around field user views when auto scrolling is enabled.
  *
  *  Ignored when auto scrolling a UITableView unless
