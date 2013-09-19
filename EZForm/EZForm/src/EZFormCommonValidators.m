@@ -109,6 +109,13 @@ EZFormValidateEmailFormat(NSString *value)
 	return NO;
     }
     
+    //Check for TLD with at least 2 characters
+    range = [domain rangeOfString:@"."];
+    NSString *tld = [domain substringFromIndex:range.location + 1];
+    if ( tld.length < 2 ) {
+        return NO;
+    }
+
     return YES;
 }
 
